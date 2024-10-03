@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atención: Actualice su contraseña</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f3f3f3;
+text-align: center;
+padding: 50px;
+}
+.container {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+}
+h1 {
+color: #FF0000;
+}
+.phishing-msg {
+margin: 20px 0;
+font-size: 18px;
+color: #555;
+}
+.email-link {
+display: inline-block;
+background-color: #007bff;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.email-link:hover {
+background-color: #0056b3;
+}
+input[type="email"] {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>¡Atención!</h1>
+<p class="phishing-msg">Actualice su contraseña de su correo electrónico para evitar
+el cierre de su cuenta.</p>
+<input type="email" id="userEmail" placeholder="Ingrese su correo electrónico"
+required>
+<div class="email-link" onclick="submitEmail()">Actualizar E-mail</div>
+</div>
+<script>
+function submitEmail() {
+var email = document.getElementById("userEmail").value;
+if (email) {
+alert("Correo electrónico ingresado: " + email);
+window.location.href = "https://dbzoutpost.com/products/frieza-redemption-p16";
+} else {
+alert("Por favor, ingrese su correo electrónico.");
+}
+}
+</script>
+</body>
+</html
